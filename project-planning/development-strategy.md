@@ -1,49 +1,28 @@
-# Project Title
+# css-variable
 
-project description
-
----
-
-## User Story Dependencies
-
-[Story Dependency Diagram](https://excalidraw.com/)
+A project to learn all about how to use CSS variables and update them with JavaScript.
 
 ---
-
-## WIREFRAME
-
-![wireframe or figma]()
-
----
-
 ## 0.Setup
+- Generate a repository from `javascript-30-starter` that include the structure Separation Of Concern concept. (logic, handlers, listeners, data, & init)
+- Include a Lisence
 
 ---
+## 1. User Story: Able to change spacing, blur and color to the image.
+- Add image (`img`)
+- Create a function to activate changes when we move the root variable (size, blur and color) on the page.
+- The img padding base on the spacing, and the filter base on blur.
+- The `hl`hightlight color base to the `base`
 
-## X. Story Name
+Listener:
+- Listen for the `change`event. It's change the value of spacing, blur, and color.
+- Listen for the `mousemove`event. It's trigger a `change`everytime we move the mouse/value.
 
-> how much work do you think this step will take? small, medium, large?
-
-**As a user I want to \_\_\_ so that \_\_\_**
-
-- [ ] _Given [context] when [a specific action is performed] then [a set of consequences should occur]_
-- [ ] ...
+Handler:
+- Handle the update from the sizing (set object that will contain dat attribute from that specific element `sizing`).
 
 ### REPO
-
-- This user story is developed on branch `_`.
-- This branch is merged to `master` branch after the acceptance criteria have been checked off.
-
-### Concern A
-
-- `file-name.js`: what is this file for? who is it assigned to?
-
-### Concern B
-
-- `file-name.js`: what is this file for? who is it assigned to?
-
-### ...
-
----
-
-## ...
+- This user story is developed on master.
+- Run the project locally
+- Push changes
+- Turn on GitHub pages

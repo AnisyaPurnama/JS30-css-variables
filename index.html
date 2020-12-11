@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf8" />
-    <title>your project name</title>
+<head>
+    <meta charset="UTF-8">
+    <title>Css-Variable</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./handler/handleUpdate.js"></script>
+</head>
+<body>
+    <h2>Update CSS Variable with <span class="hl">JS</span></h2>
 
-    <link href="./public/style.css" rel="stylesheet" />
-  </head>
+    <div class="controls">
+    <label for="Spacing">Spacing:</label>
+    <input type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
 
-  <body>
-    <div id="user-interface" class="centered">
-      <textarea id="input"></textarea>
-      <br />
-      separator: <input id="separator-input" />
-      <br />
-      <pre id="output" class="scrollable"></pre>
-    </div>
+    <label for="blur">Blur:</label>
+    <input type="range" name="blur" min="0" max="25" value="10" data-sizing="px">
 
-    <!-- initialize your application -->
-    <script type="module" src="src/init.js"></script>
+    <label for="base">Base Color:</label>
+    <input type="color" name="base" value="#ffc600">
+</div>
 
-    <!-- load the review buttons for your live deployment  -->
-    <script src="./lib/review-buttons.js"></script>
-  </body>
+<img src="image.jpeg" alt="New-York city">
+
+<script src="./listeners/change.js"></script>
+<script src="./listeners/mousemove.js"></script>
+</body>
 </html>
