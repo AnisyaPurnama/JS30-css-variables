@@ -2,7 +2,7 @@
 
 > A static web page built with only HTML, CSS & JavaScript. The project is to learn all about how to use CSS variables and update them with JavaScript.
 
-[![screen shot](./img/css.variables.png)]()
+![screen shot](https://github.com/AnisyaPurnama/JS30-css-variables/blob/master/image/css-variables.png?raw=true)
 
 [*live link*]( https://anisyapurnama.github.io/JS30-css-variables/.)
 
